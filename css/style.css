@@ -59,7 +59,7 @@ li a:hover{
     height: auto;
     margin:0 auto;
 }
-#navegador{
+#navigator{
     list-style-type: none;
     margin:0px;
     padding: 0px;
@@ -69,17 +69,17 @@ li a:hover{
 #left{
     float:left
 }
-#centrado{
+#centered{
     float:right;
     padding: 16px 88px;
 }
-#imagenCentral{
+#centralImage{
     width: 600px;
     height: 350px;
     margin-top: 0%;
     margin-left:  25%;    
 }
-#piePagina{
+#foot{
     font-size: 20px;
     text-align: left;
     list-style-type: none;
@@ -92,14 +92,14 @@ li a:hover{
     height: auto;
     vertical-align: middle;
 }
-.texto{
+.text{
     color:aliceblue;
     width: 90%;
     height: 90%;
     padding: 5%;
     background: rgb(58,57,56);
 }
-.imagenes{
+.images{
     padding: 0px 10%;
     width: 100px;
     height: 100px;
