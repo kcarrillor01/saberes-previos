@@ -1,0 +1,106 @@
+@font-face {
+    font-family: pokemon;
+    src: url(PUCHAMON.ttf);
+}
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-image: url('../imagenes/FondoPokemon.png');
+    background-repeat: repeat;
+    background-size: 100% auto;
+}
+
+header{
+    width: 100%;
+    height: auto;
+    font-family: pokemon;
+    color:#222224;
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    vertical-align: left;
+}
+nav{
+    width: 100%;
+    height: auto;
+    background: blue;
+}
+section{
+    text-align:justify;
+    color:aliceblue;
+    width: 100%;
+    height: auto;
+    background: rgb(58, 57, 56);
+}
+footer{     
+    width: 100%;
+    height: auto;
+    background: rgb(146, 153, 248);
+}
+
+.right{
+    float:right;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 88px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color:#4b262d ;
+    color: #ebd463;
+}
+#principal{
+    width: 90%;
+    height: auto;
+    margin:0 auto;
+}
+#navegador{
+    list-style-type: none;
+    margin:0px;
+    padding: 0px;
+    background: #f30d0d;
+    overflow: hidden;
+}
+#left{
+    float:left
+}
+#centrado{
+    float:right;
+    padding: 16px 88px;
+}
+#imagenCentral{
+    width: 600px;
+    height: 350px;
+    margin-top: 0%;
+    margin-left:  25%;    
+}
+#piePagina{
+    font-size: 20px;
+    text-align: left;
+    list-style-type: none;
+    margin: 1px solid black;
+    padding: 4px;
+}
+
+.pokeball{
+    width: 100px;
+    height: auto;
+    vertical-align: middle;
+}
+.texto{
+    color:aliceblue;
+    width: 90%;
+    height: 90%;
+    padding: 5%;
+    background: rgb(58,57,56);
+}
+.imagenes{
+    padding: 0px 10%;
+    width: 100px;
+    height: 100px;
+}
