@@ -110,17 +110,54 @@ li a:hover{
     height: 100px;
 }
 
+/*Solo para el formulario*/
 #myForm{
+    width: auto;
+    height: auto;
     text-align: center;
-    background: gray;
+    background: white;
     margin-top: 5px;
-    padding: 15px;
-    border-radius: 5%;
-    border-color: aqua;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-style: groove;
+    border-radius: 0%;
+    border-color:#1a2537;
 }
 
-#inputBox{
-    background-color: gray;
-    width: 100%;
-    padding: 500px;
+input[type="text"]{
+    text-align: center;
+    font-size: 15px;
+    width: 80%;
+    padding: 10px;
+}
+input[type="date"]{
+    text-align: center;
+    font-size: 15px;
+    width: 80%;
+    padding: 10px;
+}
+input[type="email"]{
+    text-align: center;
+    font-size: 15px;
+    width: 80%;
+    padding: 10px;
+}
+input[type="password"]{
+    text-align: center;
+    font-size: 15px;
+    width: 80%;
+    padding: 10px;
+}
+h2{
+    color: #1a2537;
+}
+.button{
+   
+    color: white;
+    background: #1a2537;
+    font-size: 15px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    
 }
