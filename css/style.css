@@ -37,7 +37,9 @@ section{
 footer{     
     width: 100%;
     height: auto;
-    background: rgb(146, 153, 248);
+    background: rgb(72, 76, 128);
+    margin-top: 15px;
+    border-radius: 2%;
 }
 
 .right{
@@ -73,6 +75,9 @@ li a:hover{
     float:right;
     padding: 16px 88px;
 }
+#center{
+    float:center;
+}
 #centralImage{
     width: 600px;
     height: 350px;
@@ -103,4 +108,19 @@ li a:hover{
     padding: 0px 10%;
     width: 100px;
     height: 100px;
+}
+
+#myForm{
+    text-align: center;
+    background: gray;
+    margin-top: 5px;
+    padding: 15px;
+    border-radius: 5%;
+    border-color: aqua;
+}
+
+#inputBox{
+    background-color: gray;
+    width: 100%;
+    padding: 500px;
 }

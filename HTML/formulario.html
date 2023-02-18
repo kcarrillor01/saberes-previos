@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="GRUPO DINAMITA" content="Kevin Carrillo, Angel Cruz, Santiago Castañeda y Lenin Hernandez">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="shortcut icon" href="../imagenes/pokeball.ico">
+    <title>POKECHOICHE</title>
+</head>
+<body>
+    <div id="principal">
+        <header>
+            <img class="pokeball" src="../imagenes/superball.png"> POKECHOICHE
+            <img class="pokeball" src="../imagenes/ultraball.png"> POKECHOICHE
+            <img class="pokeball" src="../imagenes/masterball.png">
+        </header>
+        <nav>  <ul id="navigator">
+            <li id="center">
+                <a href="../index.html">REGRESAR</a>
+            </li>
+        </nav>
+        
+        <form id="myForm">
+            <label for ="names">Ingrese su nombre:</label><br>
+            <input type="text" name="names" id="names" placeholder="Nombre completo" autofocus required pattern="[a-zA-Z]{2,50}"><br><br>
+            <label for="lastname">Ingrese sus apellidos:</label><br>
+            <input type="text" name="lastname" id="lastname" placeholder="Apellidos completos" required pattern="[a-zA-Z]{2,50}"><br><br>
+            <label for="birthday">Ingrese su fecha de nacimiento:</label><br>
+            <input type="date" name="birthday" id="birthday" required><br><br>
+            <label for="email">Ingrese su correo electrónico:</label><br>
+            <input type="email" name="email" id="email" placeholder="ejemplo@dominio.com" required  oncopy="return false;"><br><br>
+            <label for="emailConfirmation">Confirme su correo electrónico:</label><br>        
+            <input type="email" name="emailConfirmation" id="emailConfirmation" required  oncopy="return false;" placeholder="ejemplo@dominio.com"><br><br>
+            <label for="password">Ingrese una contraseña:</label><br>
+            <input type="password" name="password" id="password" required><br><br>
+            <label for="passwordConfirmation">Confirme la contraseña:</label><br>
+            <input type="password" name="passwordConfirmation" id="passwordConfirmation" required><br><br>
+            <input type="checkbox" required> Estoy de acuerdo con los <a href="#">Terminos y Condiciones</a> </input><br><br>
+            <input type="submit" value="REGISTRATE" class="button">
+        </form>
+        <footer>
+            <ul id="foot">
+                <li>Kevin Felipe Carrillo Romero</li>
+            </ul>
+        </footer>
+    </div> 
+
+</body>
+</html>
